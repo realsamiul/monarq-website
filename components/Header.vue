@@ -32,10 +32,10 @@
     <nav class="nav" data-v-ee146a3a="" style="opacity: 0; visibility: hidden;">
       <ul class="nav-list" data-v-ee146a3a="">
         <li class="nav-item" data-v-ee146a3a="" style="">
-          <a href="/work" class="nav-link" data-v-ee146a3a="">Work</a>
+          <NuxtLink to="/work" class="nav-link" data-v-ee146a3a="">Work</NuxtLink>
         </li>
         <li class="nav-item" data-v-ee146a3a="" style="">
-          <a href="/studio" class="nav-link" data-v-ee146a3a="">Studio</a>
+          <NuxtLink to="/data-studio" class="nav-link" data-v-ee146a3a="">Data Studio</NuxtLink>
         </li>
         <li class="nav-item" data-v-ee146a3a="" style="">
           <a href="/news" class="nav-link" data-v-ee146a3a="">News</a>
