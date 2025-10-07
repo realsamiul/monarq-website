@@ -31,17 +31,25 @@
     </button>
     <nav class="nav" data-v-ee146a3a="" style="opacity: 0; visibility: hidden;">
       <ul class="nav-list" data-v-ee146a3a="">
-        <li class="nav-item" data-v-ee146a3a="" style="">
-          <NuxtLink to="/work" class="nav-link" data-v-ee146a3a="">Work</NuxtLink>
+        <li class="nav-item" data-v-ee146a3a="">
+          <NuxtLink to="/work" class="nav-link" data-v-ee146a3a="">
+            Demos
+          </NuxtLink>
         </li>
-        <li class="nav-item" data-v-ee146a3a="" style="">
-          <NuxtLink to="/data-studio" class="nav-link" data-v-ee146a3a="">Data Studio</NuxtLink>
+        <li class="nav-item" data-v-ee146a3a="">
+          <NuxtLink to="/data-studio" class="nav-link" data-v-ee146a3a="">
+            Data Studio
+          </NuxtLink>
         </li>
-        <li class="nav-item" data-v-ee146a3a="" style="">
-          <a href="/news" class="nav-link" data-v-ee146a3a="">News</a>
+        <li class="nav-item" data-v-ee146a3a="">
+          <NuxtLink to="/news" class="nav-link" data-v-ee146a3a="">
+            Insights
+          </NuxtLink>
         </li>
-        <li class="nav-item" data-v-ee146a3a="" style="">
-          <a href="/contact" class="nav-link" data-v-ee146a3a="">Contact</a>
+        <li class="nav-item" data-v-ee146a3a="">
+          <NuxtLink to="/contact" class="nav-link" data-v-ee146a3a="">
+            Contact
+          </NuxtLink>
         </li>
       </ul>
       <div class="current" data-v-ee146a3a="" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px);">
@@ -72,16 +80,16 @@
           </ul>
           <ul data-v-919f03a6="" class="main">
             <li data-v-919f03a6="" class="main-link">
-              <a data-v-919f03a6="" href="/work" class="main-line" style="">Work</a>
+              <NuxtLink data-v-919f03a6="" to="/work" class="main-line" style="">Demos</NuxtLink>
             </li>
             <li data-v-919f03a6="" class="main-link">
-              <a data-v-919f03a6="" href="/studio" class="main-line" style="">Studio</a>
+              <NuxtLink data-v-919f03a6="" to="/data-studio" class="main-line" style="">Data Studio</NuxtLink>
             </li>
             <li data-v-919f03a6="" class="main-link">
-              <a data-v-919f03a6="" href="/news" class="main-line" style="">News</a>
+              <NuxtLink data-v-919f03a6="" to="/news" class="main-line" style="">Insights</NuxtLink>
             </li>
             <li data-v-919f03a6="" class="main-link">
-              <a data-v-919f03a6="" href="/contact" class="main-line" style="">Contact</a>
+              <NuxtLink data-v-919f03a6="" to="/contact" class="main-line" style="">Contact</NuxtLink>
             </li>
             <div data-v-919f03a6="" class="current">
               <svg data-v-919f03a6="" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-star">
