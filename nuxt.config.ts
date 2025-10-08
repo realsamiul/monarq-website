@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   css: [
-    'assets/css/main.css',
+    '~/public/css/inline_styles.css',
   ],
 
   app: {
