@@ -68,7 +68,7 @@
   </div>
 
   <!-- Full Menu Overlay -->
-  <nav data-v-919f03a6 class="menu">
+  <nav data-v-919f03a6 :class="['menu', { open: menuOpen }]">
     <div data-v-919f03a6 class="wrapper">
       <div data-v-919f03a6 class="container">
         <!-- Menu Images -->
@@ -202,4 +202,10 @@ const playReel = () => {
   // Will implement showreel modal later
   console.log('Play reel clicked')
 }
+
+watch(menuOpen, (val) => {
+  if (process.client) {
+    document.body.classList.toggle('is-open', val)
+  }
+})
 </script>
