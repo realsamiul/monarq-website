@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   css: [
-    '~/assets/css/global.css',
+    '~/public/css/inline_styles.css', // original full styles for fidelity
+    '~/assets/css/global.css',        // overrides / tweaks
   ],
 
   app: {
