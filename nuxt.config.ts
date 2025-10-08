@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   css: [
-    '~/public/css/inline_styles.css',
+    '~/assets/css/main.css',
   ],
 
   app: {
@@ -23,14 +23,6 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon/favicon-16x16.png' },
         { rel: 'manifest', href: '/favicon/site.webmanifest' }
-      ],
-      script: [
-          { src: '/js/7aefc33.js', defer: true, body: true },
-          { src: '/js/e3cea04.js', defer: true, body: true },
-          { src: '/js/e36d691.js', defer: true, body: true },
-          { src: '/js/b6072a7.js', defer: true, body: true },
-          { src: '/js/1475246.js', defer: true, body: true },
-          { src: '/js/d5d162b.js', defer: true, body: true },
       ]
     }
   }
