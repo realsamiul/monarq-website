@@ -290,16 +290,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-useHead({
-  title: 'Data Studio - M0NARQ',
-  meta: [
-    {
-      hid: 'description',
-      name: 'description',
-      content: 'M0NARQ Data Studio validates the Decision OS through real-world applications in freight markets, flood prediction, crop monitoring, and urban analytics.'
-    }
-  ]
-})
-</script>

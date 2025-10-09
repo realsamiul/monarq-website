@@ -343,16 +343,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-useHead({
-  title: 'M0NARQ - Decision Intelligence Systems',
-  meta: [
-    {
-      hid: 'description',
-      name: 'description',
-      content: 'Building Decision-Making Operating Systems that transform uncertainty into verifiable, defensible edges through causal AI and physical intelligence.'
-    }
-  ]
-})
-</script>

@@ -187,27 +187,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-const { initParallax, initTextReveal, initFadeIn, initHeroAnimations } = useScrollAnimations()
-
-onMounted(() => {
-  nextTick(() => {
-    initHeroAnimations()
-    initParallax()
-    initTextReveal()
-    initFadeIn()
-  })
-})
-
-useHead({
-  title: 'Work - M0NARQ',
-  meta: [
-    {
-      hid: 'description',
-      name: 'description',
-      content: 'M0NARQ validates its Decision OS through real-world applications across freight markets, flood prediction, crop monitoring, and urban analytics.'
-    }
-  ]
-})
-</script>
